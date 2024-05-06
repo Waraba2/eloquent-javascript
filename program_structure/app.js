@@ -143,18 +143,27 @@
 // }
 
 // -> Dispatching On A Value Using Switch
-const prompt = require("prompt-sync")();
-switch (prompt("What is the weather like?")) {
-  case "rainy":
-    console.log("Remember to bring an umbrella.");
-    break;
-  case "sunny":
-    console.log("Dress lightly.");
-    break;
-  case "cloudy":
-    console.log("Go outside.");
-    break;
-  default:
-    console.log("Unknown weather type.");
-    break;
-}
+// A chain of if statments may look better // always remember to "break" keyword when using this.
+// const prompt = require("prompt-sync")();
+// switch (prompt("What is the weather like?")) {
+//   case "rainy":
+//     console.log("Remember to bring an umbrella.");
+//     break;
+//   case "sunny":
+//     console.log("Dress lightly.");
+//     break;
+//   case "cloudy":
+//     console.log("Go outside.");
+//     break;
+//   default:
+//     console.log("Unknown weather type.");
+//     break;
+// }
+
+// -> Capitalization
+// fuzzylittleturtle
+// fuzzy_little_turtle
+// FuzzyLittleTurtle
+// fuzzyLittleTurtle (recommended)
+
+// Comments (//:single line , /**/:multiple lines)
