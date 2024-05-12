@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Default actions</title>
+</head>
+<body>
+    <a href="https://developer.mozilla.org/">MDM</a>
+    <script>
+    let link = document.querySelector("a");
+    link.addEventListener("click", event => {
+      console.log("Nope.");
+      event.preventDefault();
+    });
+    </script>
+</body>
+</html>
